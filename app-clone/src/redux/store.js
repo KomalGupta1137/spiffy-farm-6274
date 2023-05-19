@@ -18,5 +18,5 @@ const composeEnhancers =
 
 
 
-  export const store = legacy_createStore(rootReducer,composeEnhancers(applyMiddleware(thunk)));
+  export const store = legacy_createStore(rootReducer,composeEnhancers(applyMiddleware(thunk)))
 
